@@ -8,7 +8,48 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div id="map"></div>
+        <div class="container">
+            <div class="block">
+                <div class="block-form" action="">
+                    <input id="lat" type="text" placeholder="longitude" />
+                    <input id="lng" type="text" placeholder="latitude" />
+                    <input id="title" type="text" placeholder="title" />
+                    <input
+                        id="description"
+                        type="text"
+                        placeholder="description"
+                    />
+                    <input id="geo" type="submit" value="submit" />
+                </div>
+                <div class="block-cart">
+                    <!-- <div class="block-list">
+                        <ul class="list">
+                            <li class="link-title">
+                                <h5 class="title">title</h5>
+                            </li>
+                            <li class="link-lat">
+                                <p class="lat">lat</p>
+                            </li>
+                            <li class="link-lng">
+                                <p class="lng">lng</p>
+                            </li>
+                            <li class="link-info">
+                                <p class="info">info</p>
+                            </li>
+                        </ul> 
+                      <div class="block-button">
+                            <img
+                                src="/icon/close_icon.svg"
+                                alt="#"
+                                class="close"
+                            />
+                        </div> 
+                    </div> -->
+                </div>
+            </div>
+
+            <div id="map"></div>
+        </div>
 
         <script src="app.js"></script>
 
